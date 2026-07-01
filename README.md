@@ -2,7 +2,7 @@
 
 Master's thesis code — UPC Barcelona, 2024–2025
 
-Applies the **Effective Information (EI)** framework (Hoel et al., 2013) to study **causal emergence** in GPT-2 Small's Indirect Object Identification (IOI) circuit (Wang et al., 2022). The central question: does the macro-level description — collapsing the token distribution to `{Mary, John, Other}` — carry *more* causal structure than the full micro-level token distribution?
+Applies the **Effective Information (EI)** framework (Hoel et al., 2013) to study **causal emergence** in GPT-2 Small's Indirect Object Identification (IOI) circuit (Wang et al., 2022) and full model. The central question: does the macro-level description, collapsing the token distribution to `{Mary, John, Other}`, carry *more* causal structure than the full micro-level token distribution?
 
 ---
 
