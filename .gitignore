@@ -1,0 +1,25 @@
+# Whitelist — only track the files listed below, ignore everything else
+
+*
+
+# Root scripts
+!LAURA_run_ablation.py
+!LAURA_macro_states.py
+!LAURA_full_experiment.py
+!LAURA_full_experiment_extra.py
+!LAURA_ei.py
+!LAURA_collect_head_datasets.py
+!LAURA_circuit_logits.py
+!LAURA_biased_logits.py
+!LAURA_ablation_study.py
+
+# Repo files
+!README.md
+!requirements.txt
+!.gitignore
+
+# easy_transformer/ — only the two LAURA dataset files
+!easy_transformer/
+easy_transformer/*
+!easy_transformer/LAURA_biased_ioi_dataset.py
+!easy_transformer/LAURA_biased_ioi_dataset_extra.py
